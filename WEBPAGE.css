@@ -1,0 +1,344 @@
+/*Peace*/
+
+.list{
+    list-style: none;
+}
+/*nav bar*/
+.toplogo img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background: #555;
+  }
+  
+  .toplogo h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+
+
+.TOPBOX{
+
+        border: 2px solid rgb(255, 255, 255);
+        width: 50%;
+        padding: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+}
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+
+    padding: 30px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: dodgerblue;
+    color: black;
+  }
+
+  .header a.active {
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+  }
+
+  .header-right {
+    float: right;
+  }
+  /* this is setting conditions for the media? */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+/* drop down stuff */
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    margin-left: 900px;
+    padding: 15px;
+    width: 100px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 10%;
+    
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  /* to hide the links by default */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 900px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* dropdown menu to show items when we hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  .dropdown:hover .dropbtn {background-color: dodgerblue;}
+
+/*end of drop down*/
+
+/* Nikesh START*/
+
+
+.entire-male-section{
+   
+  background-color: lightblue;
+  border: 2px solid rgb(10, 10, 10);
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.fabricant-outfit{
+  
+  float:right;
+  color:black;
+  font-family:'Courier New', Courier, monospace;
+  font-size:15px;
+  font-style: italic;
+  margin-right: 20px;
+}
+
+.fab-description{
+  float:right;
+  color:black;
+  font-family:'Courier New', Courier, monospace;
+
+}
+.img-male{
+  padding-left: 2em;
+}
+
+.button{
+  color:white
+}
+
+
+/* Nikesh END */
+
+
+
+
+/* Start of HAMZA'S CSS CODE */
+
+#Female-clothing-title {
+  color: #0029b0;
+  font-size: 100px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 1000;
+  padding-left: 400px;
+  padding-bottom: 0px;
+  height: 10px;
+  margin: 40px;
+}
+
+#icyblue-sub-caption {
+color: #0089fa;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-left: 490px;
+padding-top: 70px;
+margin: 5px;
+padding-bottom: 40px;
+font-size: 130%;
+}
+
+#icy-blue-image {
+width: 30%;
+float: right;
+position: relative;
+top: -80px;
+right: 20px;
+padding-right: 5px;
+border-radius: 8px;
+}
+
+#icy-blue-description {
+font-family: Franklin Gothic Medium, Helvetica, sans-serif;
+font-weight: 700;
+color: black;
+padding-left: 60px;
+padding-top: 30px;
+font-size: 160%;
+}
+
+#whats-included-title {
+font-style: italic;
+padding-left: 60px;
+padding-top: 30px;
+font-size: 120%;
+}
+
+#icy-blue-items {
+color: black;
+font-family: Tahoma;
+font-size: 120%;
+padding-bottom: 30px;
+padding-left: 60px;
+}
+
+
+#icy-blue-price {
+padding-left: 5px;
+padding-top: 3px;
+font-family: Helvetica;
+color: white;
+font-weight: 500;
+height: 20px;
+width: 6%;
+position:relative; left:535px;
+border: thick groove #32a1ce;
+background-color: #2a018a;
+}
+
+#add-to-basket {
+position: relative; left:670px;
+bottom: 49px;
+width: 180px;
+height: 32px;
+font-size: 20px;
+}
+
+.zoomicyblue {
+    padding: 50px;
+    transition: transform .2s; 
+    margin: 0 auto;
+  }
+  
+  .zoomicyblue:hover {
+    transform: scale(1.2); 
+  }
+
+
+/* End of hamza's CSS code */
+
+/*cems code */
+
+body {
+    background-color: lightgrey;
+    font-family:'Courier New', Courier, monospace; 
+    /*my comment */
+}
+.catwalkpicture{
+    position: center;
+    border: 3px solid black;
+
+  }
+
+  .catwalk {
+    /* background-color: lightblue 
+     ;*/
+     border: 3px solid black; 
+     padding: 2em;
+     margin:2em;
+     text-align: center;
+ }
+
+ div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    width: 80em;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  
+  div.VoteTalley{ 
+      Position: center;
+     
+    background: transparent; 
+  } 
+
+  /*end of cems code */
+
+
+/* Bona's code */
+div.best-seller-slide-wrapper {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+div.best-seller-slide-wrapper a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: none;
+    text-decoration: none;
+  }
+  
+div.best-seller-slide-wrapper a:hover {
+    background-color: #777;
+  }
+ 
+img.animated-gif {
+    width: 400px;
+    height: auto;
+  }
+
+img.animated-gif:hover {
+    position:center;
+    top:-25px;
+    left:-35px;
+    width:600px;
+    height:auto;
+    display:block;
+    z-index:999;
+  }
+
+/* End of Bona's code */
